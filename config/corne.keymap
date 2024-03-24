@@ -12,13 +12,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
+        Base_Layer {
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F      &kp P  &kp B        &kp J    &kp L  &kp Y      &kp O    &kp SEMICOLON  &kp BSPC
 &kp LCTRL  &kp A  &kp R  &kp LS(S)  &kp T  &kp G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
